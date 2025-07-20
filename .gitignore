@@ -1,2 +1,32 @@
+# Terraform
 .terraform/
-*.tfstate*
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# AWS credentials and keys
+*.pem
+*.key
+*.env
+
+# Logic Pro / Audio files
+*.logicx
+*.logic
+*.wav
+*.aiff
+*.mp3
+*.zip
+
+# macOS junk files
+.DS_Store
+
+# Node/Frontend (if added later)
+node_modules/
+dist/
+build/
+.env.local
+
